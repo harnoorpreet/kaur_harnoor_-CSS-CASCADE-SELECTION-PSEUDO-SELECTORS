@@ -18,6 +18,14 @@ header {
     background-color:rgba(143, 50, 205, 0.945);
     padding: 30px 0;
 }
+#main-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;  
+    /*margin top and bottom, 0. Margin left and right auto */
+    box-shadow: 3px 3px 5px rgba(0red,0red,.3alpha);
+}
+
 
 main {
     display: flex;
