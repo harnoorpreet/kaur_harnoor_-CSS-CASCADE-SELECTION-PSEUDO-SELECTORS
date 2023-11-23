@@ -1,6 +1,8 @@
 /* select all tags and resets the default values to 0 */
 /* We do not want to rely on the browser defaults */
-
+.hidden {
+    display: none;
+}
 * {
     border: none;
     margin: 0;
@@ -25,6 +27,14 @@ header {
     /*margin top and bottom, 0. Margin left and right auto */
     box-shadow: 3px 3px 5px rgba(0red,0red,.3alpha);
 }
+#character_nav {
+    background-color: #675050;
+    background-image: url('../images/teamimage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
 
 
 main {
