@@ -12,6 +12,7 @@
 
 body {
     background-color: lightpink;
+    background-image: url('../images/teamimage.jpeg');
     /* These properties will inherited by the children elements */ 
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
