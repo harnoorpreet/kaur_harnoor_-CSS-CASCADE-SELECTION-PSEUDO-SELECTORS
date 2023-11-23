@@ -1,8 +1,9 @@
-/* select all tags and resets the default values to 0 */
-/* We do not want to rely on the browser defaults */
 .hidden {
     display: none;
 }
+/* select all tags and resets the default values to 0 */
+/* We do not want to rely on the browser defaults */
+
 * {
     border: none;
     margin: 0;
@@ -10,7 +11,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: lightpink;
     /* These properties will inherited by the children elements */ 
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
