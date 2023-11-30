@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #675050;
+    background-color: #e68181;
     background-image: url('../images/background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@ ul li {
 }
 
 .todo li:nth-child(odd) {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: yellow;
 }
 
 
