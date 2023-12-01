@@ -94,12 +94,10 @@ ul li {
     background-color: rgba(0, 255, 0, 0.5);
 }
 
-input[type="checkbox"] {
-    margin-right: 8px;
-}
+
 
 input[type="checkbox"]:checked + span::after {
-    content: "\2713";
+    content: "\1F44D";
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -114,4 +112,9 @@ input[type="checkbox"]:checked + span::after {
 @keyframes fadeIn {
     from {opacity: 0;}
     to{opacity: 1;}
+}
+.mark {
+    border-radius: 20px;
+    padding: 1%;
+    background-color:rgba(164,186,183);
 }
