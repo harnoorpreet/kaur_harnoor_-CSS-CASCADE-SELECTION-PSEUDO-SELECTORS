@@ -123,14 +123,15 @@ input[type="checkbox"]:checked + span::after {
 }
 
 footer {
-    color: white;
+    color: black;
     padding: 20px 0;
     text-align: center;
+    font-style: normal;
 }
 
 .sticky-footer {
     position: sticky;
     top: 100%;
     height: 80px;
-    background-color: black;
+    background-color: greenyellow;
 }
