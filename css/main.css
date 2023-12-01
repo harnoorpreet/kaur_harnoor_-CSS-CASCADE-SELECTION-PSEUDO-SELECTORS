@@ -33,6 +33,7 @@ main {
 header > h1 {
     text-align: center;
     padding: 10px;
+    text-decoration: antiquewhite;
     
 }
 
@@ -66,10 +67,10 @@ article:first-of-type {
 }
 
 #done {
-    border: 4px solid green;
+    border: 4px solid orangered;
 }
 #done h2 {
-    color: green;
+    color: orangered;
 }
 
 ul {
@@ -91,7 +92,7 @@ ul li {
 }
 
 .done li:nth-child(odd) {
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: orangered;
 }
 
 
@@ -116,5 +117,5 @@ input[type="checkbox"]:checked + span::after {
 .mark {
     border-radius: 20px;
     padding: 1%;
-    background-color:rgba(164,186,183);
+    background-color:rgb(83, 49, 197);
 }
